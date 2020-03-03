@@ -1,0 +1,18 @@
+<html>
+<script src="countrystates.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>
+    Country States
+</title>
+<body onload = "getCountries()">
+    
+    <label for ="countries"> List of Countries </label>
+    <select placeholder="Select a country" name = "countries" id = "countries"  onchange = "displayStates()"> 
+        <option display selected hidden>Select a country</option>
+    </select><br/>
+    <label for="states"> List of States</label>
+    <select name = "states" id = "states"><option>N/A</option>
+    </select>
+</body>
+
+</html>
